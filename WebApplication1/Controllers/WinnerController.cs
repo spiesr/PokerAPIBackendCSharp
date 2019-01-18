@@ -109,7 +109,7 @@ namespace WebApplication1.Controllers
                     {
                         int winnerIndex = winner - 1;
                         string messageString = "The winner is {0}!";
-                        response.message = String.Format(messageString, players[winnerIndex]);
+                        response.message = String.Format(messageString, players[winnerIndex].name);
                     }
                 }
             }
@@ -159,7 +159,7 @@ namespace WebApplication1.Controllers
                     {
                         int winnerIndex = winner - 1;
                         string messageString = "The winner is {0}!";
-                        response.message = String.Format(messageString, players[winnerIndex]);
+                        response.message = String.Format(messageString, players[winnerIndex].name);
                     }
                 }
 
